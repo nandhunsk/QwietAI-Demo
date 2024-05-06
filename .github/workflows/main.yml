@@ -21,7 +21,7 @@ jobs:
 
     - name: Download the Qwiet CLI and set permissions
       run: |
-        curl https://cdn.shiftleft.io/download/sl > ${GITHUB_WORKSPACE}/sl && chmod a+rx ${GITHUB_WORKSPACE}/sl
+        curl https://cdn.shiftleft.io/download/sl > nandhunsk/QwietAI-Demo/sl && chmod a+rx nandhunsk/QwietAI-Demo/sl
 
     # Qwiet requires Java 1.8
     - name: Set up Java
